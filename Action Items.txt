@@ -1,0 +1,3 @@
+1. Mnemonic Phrase generator.
+2. Smart Contract to store values. (Private Blockchain)
+3. 
