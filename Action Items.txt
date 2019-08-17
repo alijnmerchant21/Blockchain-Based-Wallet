@@ -1,3 +1,9 @@
 1. Mnemonic Phrase generator.
-2. Smart Contract to store values. (Private Blockchain)
-3. 
+2. User Registration.
+3. User login.
+4. Smart Contract to store values. (Private Blockchain)
+5. Application framework.
+5a. Forgot password.
+5b. Auto fill user details. (Critical and non critical.)
+5c. Sharing of password or other sensitive information.
+5d. Masking Face ID or Touch ID with login.
