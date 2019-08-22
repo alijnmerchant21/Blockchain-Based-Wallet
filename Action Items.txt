@@ -1,4 +1,5 @@
 1. Mnemonic Phrase generator.
+1a. Check Crypto package used for generating random hex value.
 2. User Registration.
 3. User login.
 4. Smart Contract to store values. (Private Blockchain)
