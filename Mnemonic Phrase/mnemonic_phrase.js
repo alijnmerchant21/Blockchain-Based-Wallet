@@ -107,15 +107,21 @@ var word_list = list.split("\n"); // Store the string file in an array.
 var mnemonic_phrase = [];
 var m;
 
-	for(var i=0;i<12;i++)
-	{
+	for(var i=0;i<12;i++){
 	m = to_decimal[i];
 	mnemonic_phrase.push(word_list[m]);
 	}
 
-/*console.log("Word List is:")
-for(var i=0;i<12;i++)
-{
+//var sha256_mnemomic_phrase = sha256(mnemonic_phrase);
+
+//Printing word list
+
+console.log("Word List is:")
+for(var i=0;i<12;i++){
 console.log(mnemonic_phrase[i]);
-}*/
+}
+
+//console.log(sha256_mnemomic_phrase);
+
+
 
