@@ -43,8 +43,6 @@ var word_list = list.split("\n"); // Store the string file in an array.
 var appended_binary_string = appended_binary.toString(); // Convert array into string.
 var appended_binary_sub_string = [], to_decimal = [], mnemonic_phrase = [];
 var j=0;
-
-<<<<<<< HEAD
 for(var i=0;i<12;i++)
 {
 	appended_binary_sub_string = appended_binary_string.substr(j,11);
@@ -53,25 +51,3 @@ for(var i=0;i<12;i++)
 	mnemonic_phrase.push(word_list[to_decimal[i]]);
 	console.log(mnemonic_phrase[i]);
 }
-
-console.log(mnemonic_phrase.length)
-=======
-	for(var i=0;i<12;i++){
-	m = to_decimal[i];
-	mnemonic_phrase.push(word_list[m]);
-	}
-
-//var sha256_mnemomic_phrase = sha256(mnemonic_phrase);
-
-//Printing word list
-
-console.log("Word List is:")
-for(var i=0;i<12;i++){
-console.log(mnemonic_phrase[i]);
-}
-
-//console.log(sha256_mnemomic_phrase);
-
-
->>>>>>> ffe8e171a191eec3b50cd29afd6a518462a758be
-
